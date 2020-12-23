@@ -1,0 +1,369 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AnalogClockLib
+</name>
+</assembly>
+<members>
+<member name="P:AnalogClockLib.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AnalogClockLib.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:AnalogClockLib.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:AnalogClockLib.BorderStyle">
+	<summary>
+ Represents border-style enumeration.
+ </summary>
+</member><member name="T:AnalogClockLib.HandStyle">
+	<summary>
+ Represents hand-style enumeration.
+ </summary>
+</member><member name="T:AnalogClockLib.NumberStyle">
+	<summary>
+ Represents number-style enumeration.
+ </summary>
+</member><member name="T:AnalogClockLib.MarkerStyle">
+	<summary>
+ Represents marker-style enumeration.
+ </summary>
+</member><member name="T:AnalogClockLib.AnalogClock.PaintEventHandler">
+	<summary>
+ Represents the method that will handle the NambersPaint, 
+ HourHandPaint, MinuteHandPaint, SecondHandPaint, or CenterPointPaint 
+ events of the analog clock component.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.UtcOffset">
+	<summary>
+ Gets or sets the clock's UTC-Offset.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.Value">
+	<summary>
+ Gets the clock date-time object.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.ClockCenter">
+	<summary>
+ Gets a point that represents the center of the clock.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.ClockRectangle">
+	<summary>
+ Gets the rectangle that is used for drawing the clock.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.ClockRadius">
+	<summary>
+ Gets the radius of the clock.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.FrameColor">
+	<summary>
+ Gets or sets the clock's frame color.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.BorderStyle">
+	<summary>
+ Gets or sets the border-style of the component.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HandStyle">
+	<summary>
+ Gets or sets the hand-style of the clock.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.NumberStyle">
+	<summary>
+ Gets or sets the number-style of the clock.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourMarkerStyle">
+	<summary>
+ Gets or sets the number-style of the clock.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MarkerRadiusLength">
+	<summary>
+ Gets or sets the radius-length of the markers’ circumference that is directly proportional to the clock's radius.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourMarkerLength">
+	<summary>
+ Gets or sets the length of the hour-marker that is directly proportional to the radius.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MinuteMarkerLength">
+	<summary>
+ Gets or sets the length of the minute-marker that is directly proportional to the radius.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourMarkerWidth">
+	<summary>
+ Gets or sets the width of the hour-marker.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourMarkerVisible">
+	<summary>
+ Gets or sets the hour-markers' visibility.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MinuteMarkerVisible">
+	<summary>
+ Gets or sets the minute-markers' visibility.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourMarkerColor">
+	<summary>
+ Gets or sets the hour-marker color.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MinuteMarkerColor">
+	<summary>
+ Gets or sets the minute-marker color.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.NumberRadiusLength">
+	<summary>
+ Gets or sets the radius-length of the numbers' circumference that is directly proportional to the clock's radius.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.NumberOffset">
+	<summary>
+ Gets or sets the numbers offset from the clock’s-center (counting the clock’s-center at {0, 0}).
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.NumberVisible">
+	<summary>
+ Gets or sets the numbers' visibility.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourHandWidth">
+	<summary>
+ Gets or sets the width of the hour-hand.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourHandLength">
+	<summary>
+ Gets or sets the length of the hour-hand that is directly proportional to the radius.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourHandTailLength">
+	<summary>
+ Gets or sets the length of the hour-hand tail that is directly proportional to the hands' length (ends at the center).
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourHandVisible">
+	<summary>
+ Gets or sets the hour-hand's visibility.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourHandColor">
+	<summary>
+ Gets or sets the minute-hand color.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourHandPath">
+	<summary>
+ Gets the hour-hand path of the clock.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.HourHandAngle">
+	<summary>
+ Gets the angle (in radians) of the hour-hand.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MinuteHandWidth">
+	<summary>
+ Gets or sets the width of the minute-hand.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MinuteHandLength">
+	<summary>
+ Gets or sets the length of the minute-hand that is directly proportional to the radius.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MinuteHandTailLength">
+	<summary>
+ Gets or sets the length of the minute-hand tail that is directly proportional to the hands' length (ends at the center).
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MinuteHandVisible">
+	<summary>
+ Gets or sets the minute-hand's visibility.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MinuteHandColor">
+	<summary>
+ Gets or sets the minute-hand color.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MinuteHandPath">
+	<summary>
+ Gets the minute-hand path of the clock.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.MinuteHandAngle">
+	<summary>
+ Gets the angle (in radians) of the minute-hand.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.SecondHandWidth">
+	<summary>
+ Gets or sets the width of the second-hand.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.SecondHandLength">
+	<summary>
+ Gets or sets the length of the second-hand that is directly proportional to the radius.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.SecondHandTailLength">
+	<summary>
+ Gets or sets the length of the second-hand tail that is directly proportional to the hands' length (ends at the center).
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.SecondHandVisible">
+	<summary>
+ Gets or sets the second-hand's visibility.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.SecondHandColor">
+	<summary>
+ Gets or sets the second-hand color.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.SecondHandPath">
+	<summary>
+ Gets the second-hand path of the clock.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.SecondHandAngle">
+	<summary>
+ Gets the angle (in radians) of the second-hand.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.CenterPointColor">
+	<summary>
+ Gets or sets the center point color.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.CenterPointSize">
+	<summary>
+ Gets or sets the size of the center-point that is directly proportional to the circumference of the clock.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.CenterPointVisible">
+	<summary>
+ Gets or sets the center-point's visibility.
+ </summary>
+</member><member name="P:AnalogClockLib.AnalogClock.CenterPointPath">
+	<summary>
+ Gets the center point path of the clock.
+ </summary>
+</member><member name="M:AnalogClockLib.AnalogClock.GetPoint(System.Drawing.PointF,System.Double,System.Single)">
+	<summary>
+ Calculates and returns a point in the clock's cordinates.
+ </summary>
+	<param name="startPoint">A starting point in the clock’s area from which the point should be calculated.</param>
+	<param name="angle">An angle from x-axis (in radins).</param>
+	<param name="radius">The distans from the starting point to the point.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.SetHourHandPath(System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Region)">
+	<summary>
+ Sets the hour-hand’s graphics path and the update region.
+ </summary>
+	<param name="hourHandPath">The clock's hour-hand graphics path.</param>
+	<param name="updateRegion">A region that will update the clock's hour-hand.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.SetMinuteHandPath(System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Region)">
+	<summary>
+ Sets the minute-hand’s graphics path and the update region.
+ </summary>
+	<param name="minuteHandPath">The clock's minute-hand graphics path.</param>
+	<param name="updateRegion">A region that will update the clock's minute-hand.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.SetSecondHandPath(System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Region)">
+	<summary>
+ Sets the second-hand’s graphics path and the update region.
+ </summary>
+	<param name="secondHandPath">The clock's second-hand graphics path.</param>
+	<param name="updateRegion">A region that will update the clock's second-hand.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.SetCenterPointPath(System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Sets the center-point's graphics path.
+ </summary>
+	<param name="centerPointPath">The clock's center-point graphics path.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Raises the System.Windows.Forms.Control.Paint event.
+ </summary>
+</member><member name="M:AnalogClockLib.AnalogClock.OnBackgroundPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Raises the AnalogClockLib.AnalogClock.BackgroundPaint event.
+ </summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs
+ that contains the event data.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnMinuteMarkerPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Raises the AnalogClockLib.AnalogClock.MinuteMarkerPaint event.
+ </summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs
+ that contains the event data.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnHourMarkerPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Raises the AnalogClockLib.AnalogClock.HourMarkerPaint event.
+ </summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs
+ that contains the event data.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnNambersPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Raises the AnalogClockLib.AnalogClock.NambersPaint event.
+ </summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs
+ that contains the event data.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnHourHandPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Raises the AnalogClockLib.AnalogClock.HourHandPaint event.
+ </summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs
+ that contains the event data.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnMinuteHandPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Raises the AnalogClockLib.AnalogClock.MinuteHandPaint event.
+ </summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs
+ that contains the event data.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnSecondHandPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Raises the AnalogClockLib.AnalogClock.SecondHandPaint event.
+ </summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs
+ that contains the event data.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnCenterPointPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Raises the AnalogClockLib.AnalogClock.CenterPointPaint event.
+ </summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs
+ that contains the event data.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnFramePaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Draws the clock’s frame.
+ </summary>
+	<param name="e">A System.Windows.Forms.PaintEventArgs
+ that contains the event data.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnResize(System.EventArgs)">
+	<summary>
+ Raises the System.Windows.Forms.Control.Resize event.
+ </summary>
+</member><member name="M:AnalogClockLib.AnalogClock.OnTimeChanged(System.EventArgs)">
+	<summary>
+ Raises the AnalogClockLib.AnalogClock.TimeChanged event.
+ </summary>
+	<param name="e">A AnalogClockLib.TimeChangeEventArgs
+ that contains the event data.</param>
+</member><member name="M:AnalogClockLib.AnalogClock.OnUtcChanged(System.EventArgs)">
+	<summary>
+ Raises the AnalogClockLib.AnalogClock.UtcChanged event.
+ </summary>
+</member><member name="T:AnalogClockLib.AnalogClock">
+	<summary>
+ Represents a Windows analog clock control.
+ </summary>
+</member><member name="M:AnalogClockLib.PaintEventArgs.#ctor(System.Drawing.Color,System.Windows.Forms.PaintEventArgs)">
+	<param name="col">One of the system.Drawing.Color 
+ structure indicating the graphics' fill-brush color.</param>
+	<param name="e">A System.Windows.Forms.PaintEventArgs object.</param>
+</member><member name="P:AnalogClockLib.PaintEventArgs.Brush">
+	<summary>
+ Gets or sets the brush object that is used to fill the interior of the element.
+ </summary>
+</member><member name="P:AnalogClockLib.PaintEventArgs.Graphics">
+	<summary>
+ Gets the graphics used to paint.
+ </summary>
+</member><member name="P:AnalogClockLib.PaintEventArgs.ClipRectangle">
+	<summary>
+ Gets the rectangle in which to paint.
+ </summary>
+</member><member name="M:AnalogClockLib.PaintEventArgs.Dispose(System.Boolean)">
+	<summary>
+ Releases all resources used by this object.
+ </summary>
+</member><member name="M:AnalogClockLib.PaintEventArgs.Dispose">
+	<summary>
+ Releases all resources used by this object.
+ </summary>
+</member><member name="T:AnalogClockLib.PaintEventArgs">
+	<summary>
+ Provides data for the
+ AnalogClockLib.AnalogClock.NambersPaint,
+ AnalogClockLib.AnalogClock.HourHandPaint,
+ AnalogClockLib.AnalogClock.MinuteHandPaint,
+ AnalogClockLib.AnalogClock.SecondHandPaint,
+ AnalogClockLib.AnalogClock.CenterPointPaint events.
+ </summary>
+</member>
+</members>
+</doc>

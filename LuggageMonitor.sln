@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuggageMonitor", "LuggageMonitor\LuggageMonitor.csproj", "{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		CD_ROM|x64 = CD_ROM|x64
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DVD-5|Any CPU = DVD-5|Any CPU
+		DVD-5|x64 = DVD-5|x64
+		DVD-5|x86 = DVD-5|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		SingleImage|Any CPU = SingleImage|Any CPU
+		SingleImage|x64 = SingleImage|x64
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.CD_ROM|x64.ActiveCfg = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.CD_ROM|x86.ActiveCfg = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Debug|x64.Build.0 = Debug|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Debug|x86.Build.0 = Debug|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.DVD-5|x64.ActiveCfg = Debug|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.DVD-5|x86.ActiveCfg = Debug|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Release|x64.ActiveCfg = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Release|x64.Build.0 = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Release|x86.ActiveCfg = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.Release|x86.Build.0 = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.SingleImage|x64.ActiveCfg = Release|Any CPU
+		{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}.SingleImage|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB50BA4E-8F95-496C-B301-D19A8B3055CA}
+	EndGlobalSection
+EndGlobal

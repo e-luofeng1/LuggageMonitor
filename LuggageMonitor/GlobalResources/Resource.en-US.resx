@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ForceSignMonitor_lblAirPressure_Text" xml:space="preserve">
+    <value>airPressureState:</value>
+    <comment>进气气压正常：</comment>
+  </data>
+  <data name="ForceSignMonitor_lblAuto_Text" xml:space="preserve">
+    <value>auto-manual:</value>
+    <comment>自动手动：</comment>
+  </data>
+  <data name="ForceSignMonitor_lblComPressionFault_Text" xml:space="preserve">
+    <value>ComPressionFault:</value>
+    <comment>电磁阀压紧故障:</comment>
+  </data>
+  <data name="ForceSignMonitor_lblloosenFault_Text" xml:space="preserve">
+    <value>loosenFault:</value>
+    <comment>电磁阀松开故障：</comment>
+  </data>
+  <data name="ForceSignMonitor_lblPowerSwitch_Text" xml:space="preserve">
+    <value>powerSwitch:</value>
+    <comment>电源控制开关:</comment>
+  </data>
+  <data name="ForceSignMonitor_lblQuickStop_Text" xml:space="preserve">
+    <value>scramState：</value>
+    <comment>急停正常:</comment>
+  </data>
+  <data name="ForceSignMonitor_lblScreem_Text" xml:space="preserve">
+    <value>screemState:</value>
+    <comment>光幕正常:</comment>
+  </data>
+  <data name="ForceSignMonitor_lblWarn_Text" xml:space="preserve">
+    <value>WarmState:</value>
+    <comment>总报警</comment>
+  </data>
+  <data name="ForceSignMonitor_pnlSignMonitor_Text" xml:space="preserve">
+    <value>PLC Monitoor</value>
+    <comment>PLC信号监控</comment>
+  </data>
+  <data name="ForceSignMonitor_Text" xml:space="preserve">
+    <value>Signal to view</value>
+    <comment>信号查看</comment>
+  </data>
+  <data name="FrmForceBootMonitor_btnCloseLightAction_Text" xml:space="preserve">
+    <value>Impact</value>
+    <comment>电磁阀压紧</comment>
+  </data>
+  <data name="FrmForceBootMonitor_btnOpenLigntAction_Text" xml:space="preserve">
+    <value>Loosen</value>
+    <comment>电磁阀松开</comment>
+  </data>
+  <data name="FrmForceBootMonitor_btnPlc_Text" xml:space="preserve">
+    <value>PLC Monitor</value>
+    <comment>PLC监控</comment>
+  </data>
+  <data name="FrmForceBootMonitor_btnRest_Text" xml:space="preserve">
+    <value>Reset</value>
+    <comment>重置</comment>
+  </data>
+  <data name="FrmForceBootMonitor_btnSelect_Text" xml:space="preserve">
+    <value>Select</value>
+    <comment>查询</comment>
+  </data>
+  <data name="FrmForceBootMonitor_chkHeart_Text" xml:space="preserve">
+    <value>heartbeat</value>
+    <comment>心跳</comment>
+  </data>
+  <data name="FrmForceBootMonitor_grid_CurrentValue_HeaderText" xml:space="preserve">
+    <value>currentValue</value>
+    <comment>当前值</comment>
+  </data>
+  <data name="FrmForceBootMonitor_grid_Explain_HeaderText" xml:space="preserve">
+    <value>instruction</value>
+    <comment>说明</comment>
+  </data>
+  <data name="FrmForceBootMonitor_grid_MistakeType_HeaderText" xml:space="preserve">
+    <value>mistakeType</value>
+    <comment>防错类型</comment>
+  </data>
+  <data name="FrmForceBootMonitor_grid_Result_HeaderText" xml:space="preserve">
+    <value>result</value>
+    <comment>结果</comment>
+  </data>
+  <data name="FrmForceBootMonitor_lblBarCode_Text" xml:space="preserve">
+    <value>barcode:</value>
+    <comment>条码：</comment>
+  </data>
+  <data name="FrmForceBootMonitor_lblItemName_Text" xml:space="preserve">
+    <value>ItemName:</value>
+    <comment>项目名称:</comment>
+  </data>
+  <data name="FrmForceBootMonitor_lblNOK_Text" xml:space="preserve">
+    <value>no-qualified quantity：</value>
+    <comment>不合格数:</comment>
+  </data>
+  <data name="FrmForceBootMonitor_lblOK_Text" xml:space="preserve">
+    <value>qualified quantity：</value>
+    <comment>合格数：</comment>
+  </data>
+  <data name="FrmForceBootMonitor_lblPartNo_Text" xml:space="preserve">
+    <value>PartNo：</value>
+  </data>
+  <data name="FrmForceBootMonitor_lblTitle_Text" xml:space="preserve">
+    <value>Model Y front trunk - detection tooling</value>
+    <comment>MODEL Y前行李箱--检测工装</comment>
+  </data>
+  <data name="FrmForceBootMonitor_pnlBasicInfo_Text" xml:space="preserve">
+    <value>Product information</value>
+    <comment>产品信息</comment>
+  </data>
+  <data name="FrmForceBootMonitor_pnlCountInfo_Text" xml:space="preserve">
+    <value>Statistics</value>
+    <comment>统计信息</comment>
+  </data>
+  <data name="FrmForceBootMonitor_pnlpicReult_Text" xml:space="preserve">
+    <value>Photo results</value>
+    <comment>拍照结果</comment>
+  </data>
+  <data name="FrmForceBootMonitor_pnlStep_Text" xml:space="preserve">
+    <value>Mistake proofing information</value>
+    <comment>防错信息</comment>
+  </data>
+  <data name="FrmForceBootMonitor_pnlSystem_Text" xml:space="preserve">
+    <value>system prompt</value>
+    <comment>系统提示</comment>
+  </data>
+  <data name="FrmForceBootMonitor_Text" xml:space="preserve">
+    <value>Front trunk cargo</value>
+    <comment>前行李箱工装</comment>
+  </data>
+  <data name="FrmForcePB_btnF1_BlockText" xml:space="preserve">
+    <value>Sensor#1 blocked</value>
+    <comment>传感器#1屏蔽</comment>
+  </data>
+  <data name="FrmForcePB_btnF1_OpenText" xml:space="preserve">
+    <value>Sensor#1 open</value>
+    <comment>传感器#1打开</comment>
+  </data>
+  <data name="FrmForcePB_btnF2_BlockText" xml:space="preserve">
+    <value>Sensor#2 blocked</value>
+    <comment>传感器#2屏蔽</comment>
+  </data>
+  <data name="FrmForcePB_btnF2_OpenText" xml:space="preserve">
+    <value>Sensor#2 open</value>
+    <comment>传感器#2打开</comment>
+  </data>
+  <data name="FrmForcePB_btnF3_BlockText" xml:space="preserve">
+    <value>Sensor#3 blocked</value>
+    <comment>传感器#3屏蔽</comment>
+  </data>
+  <data name="FrmForcePB_btnF3_OpenText" xml:space="preserve">
+    <value>Sensor#3 open</value>
+    <comment>传感器#3打开</comment>
+  </data>
+  <data name="FrmForcePB_btnF4_BlockText" xml:space="preserve">
+    <value>Sensor#4 blocked</value>
+    <comment>传感器#4屏蔽</comment>
+  </data>
+  <data name="FrmForcePB_btnF4_OpenText" xml:space="preserve">
+    <value>Sensor#4 open</value>
+    <comment>传感器#4打开</comment>
+  </data>
+  <data name="FrmForcePB_Text" xml:space="preserve">
+    <value>Front trunk signal is blocked</value>
+    <comment>前行李箱信号屏蔽</comment>
+  </data>
+  <data name="FrmRealBootMonitor_btnCloseLightAction1_Text" xml:space="preserve">
+    <value>Down</value>
+    <comment>电磁阀1下降</comment>
+  </data>
+  <data name="FrmRealBootMonitor_btnCloseLightAction2_Text" xml:space="preserve">
+    <value>Impact</value>
+    <comment>电磁阀2压紧</comment>
+  </data>
+  <data name="FrmRealBootMonitor_btnPlc_Text" xml:space="preserve">
+    <value>PLC Monitor</value>
+    <comment>PLC监控</comment>
+  </data>
+  <data name="FrmRealBootMonitor_btnOpenLigntAction1_Text" xml:space="preserve">
+    <value>Rise</value>
+    <comment>电磁阀1上升</comment>
+  </data>
+  <data name="FrmRealBootMonitor_btnOpenLigntAction2_Text" xml:space="preserve">
+    <value>Loosen</value>
+    <comment>电磁阀2松开</comment>
+  </data>
+  <data name="FrmRealBootMonitor_btnRest_Text" xml:space="preserve">
+    <value>Reset</value>
+    <comment>重置</comment>
+  </data>
+  <data name="FrmRealBootMonitor_btnSelect_Text" xml:space="preserve">
+    <value>Select</value>
+    <comment>查询</comment>
+  </data>
+  <data name="FrmRealBootMonitor_chkHeart_Text" xml:space="preserve">
+    <value>heartbeat</value>
+    <comment>心跳</comment>
+  </data>
+  <data name="FrmRealBootMonitor_grid_CurrentValue_HeaderText" xml:space="preserve">
+    <value>currentValue</value>
+    <comment>当前值</comment>
+  </data>
+  <data name="FrmRealBootMonitor_grid_Explain_HeaderText" xml:space="preserve">
+    <value>instruction</value>
+    <comment>说明</comment>
+  </data>
+  <data name="FrmRealBootMonitor_grid_MistakeType_HeaderText" xml:space="preserve">
+    <value>mistakeType</value>
+    <comment>防错类型</comment>
+  </data>
+  <data name="FrmRealBootMonitor_grid_Result_HeaderText" xml:space="preserve">
+    <value>result</value>
+    <comment>结果</comment>
+  </data>
+  <data name="FrmRealBootMonitor_lblBarCode_Text" xml:space="preserve">
+    <value>BarCode:</value>
+    <comment>条码：</comment>
+  </data>
+  <data name="FrmRealBootMonitor_lblItemName_Text" xml:space="preserve">
+    <value>ItemName:</value>
+    <comment>项目名称:</comment>
+  </data>
+  <data name="FrmRealBootMonitor_lblNOK_Text" xml:space="preserve">
+    <value>no-qualified quantity：</value>
+    <comment>不合格数:</comment>
+  </data>
+  <data name="FrmRealBootMonitor_lblOK_Text" xml:space="preserve">
+    <value>qualified quantity：</value>
+    <comment>合格数：</comment>
+  </data>
+  <data name="FrmRealBootMonitor_lblPartNo_Text" xml:space="preserve">
+    <value>PartNo：</value>
+    <comment>零件号</comment>
+  </data>
+  <data name="FrmRealBootMonitor_lblTitle_Text" xml:space="preserve">
+    <value>Model Y trunk - detection tooling</value>
+    <comment>MODEL Y后行李箱--检测工装</comment>
+  </data>
+  <data name="FrmRealBootMonitor_pnlBasicInfo_Text" xml:space="preserve">
+    <value>Product information</value>
+    <comment>产品信息</comment>
+  </data>
+  <data name="FrmRealBootMonitor_pnlCountInfo_Text" xml:space="preserve">
+    <value>Statistics</value>
+    <comment>计数值</comment>
+  </data>
+  <data name="FrmRealBootMonitor_pnlpicReult_Text" xml:space="preserve">
+    <value>Photo results</value>
+    <comment>拍照结果</comment>
+  </data>
+  <data name="FrmRealBootMonitor_pnlStep_Text" xml:space="preserve">
+    <value>Mistake proofing information</value>
+    <comment>防错信息</comment>
+  </data>
+  <data name="FrmRealBootMonitor_pnlSystem_Text" xml:space="preserve">
+    <value>system prompt</value>
+    <comment>系统提示</comment>
+  </data>
+  <data name="FrmRealBootMonitor_Text" xml:space="preserve">
+    <value>Front trunk cargo</value>
+    <comment>前行李箱工装</comment>
+  </data>
+  <data name="FrmRealPB_btnF1_BlockText" xml:space="preserve">
+    <value>Sensor#1 blocked</value>
+    <comment>传感器#1屏蔽</comment>
+  </data>
+  <data name="FrmRealPB_btnF1_OpenText" xml:space="preserve">
+    <value>Sensor#1 open</value>
+    <comment>传感器#1打开</comment>
+  </data>
+  <data name="FrmRealPB_btnF2_BlockText" xml:space="preserve">
+    <value>Sensor#2 blocked</value>
+    <comment>传感器#2屏蔽</comment>
+  </data>
+  <data name="FrmRealPB_btnF2_OpenText" xml:space="preserve">
+    <value>Sensor#2 Open</value>
+    <comment>传感器#2打开</comment>
+  </data>
+  <data name="FrmRealPB_btnF3_BlockText" xml:space="preserve">
+    <value>Sensor#3 blocked</value>
+    <comment>传感器#3屏蔽</comment>
+  </data>
+  <data name="FrmRealPB_btnF3_OpenText" xml:space="preserve">
+    <value>Sensor#3 Open</value>
+    <comment>传感器#3打开</comment>
+  </data>
+  <data name="FrmRealPB_btnF4_BlockText" xml:space="preserve">
+    <value>Sensor#4 blocked</value>
+    <comment>传感器#4屏蔽</comment>
+  </data>
+  <data name="FrmRealPB_btnF4_OpenText" xml:space="preserve">
+    <value>Sensor#4 Open</value>
+    <comment>传感器#4打开</comment>
+  </data>
+  <data name="FrmRealPB_btnF5_BlockText" xml:space="preserve">
+    <value>Sensor#5 blocked</value>
+    <comment>传感器#5屏蔽</comment>
+  </data>
+  <data name="FrmRealPB_btnF5_OpenText" xml:space="preserve">
+    <value>Sensor#5 Open</value>
+    <comment>传感器#5打开</comment>
+  </data>
+  <data name="FrmRealPB_btnF6_BlockText" xml:space="preserve">
+    <value>Sensor#6 blocked</value>
+    <comment>传感器#6屏蔽</comment>
+  </data>
+  <data name="FrmRealPB_btnF6_OpenText" xml:space="preserve">
+    <value>Sensor#6 Open</value>
+    <comment>传感器#6打开</comment>
+  </data>
+  <data name="FrmRealPB_btnF7_BlockText" xml:space="preserve">
+    <value>Sensor#7 blocked</value>
+    <comment>传感器#7屏蔽</comment>
+  </data>
+  <data name="FrmRealPB_btnF7_OpenText" xml:space="preserve">
+    <value>Sensor#7 Open</value>
+    <comment>传感器#7打开</comment>
+  </data>
+  <data name="FrmRealPB_btnF8_BlockText" xml:space="preserve">
+    <value>Sensor#8 blocked</value>
+    <comment>传感器#8屏蔽</comment>
+  </data>
+  <data name="FrmRealPB_btnF8_OpenText" xml:space="preserve">
+    <value>Sensor#8 Open</value>
+    <comment>传感器#8打开</comment>
+  </data>
+  <data name="FrmRealPB_btnF9_BlockText" xml:space="preserve">
+    <value>Sensor#9 blocked</value>
+    <comment>传感器#9屏蔽</comment>
+  </data>
+  <data name="FrmRealPB_btnF9_OpenText" xml:space="preserve">
+    <value>Sensor#9 Open</value>
+    <comment>传感器#9打开</comment>
+  </data>
+  <data name="FrmRealPB_Text" xml:space="preserve">
+    <value>Real trunk signal is blocked</value>
+    <comment>后行李箱信号屏蔽</comment>
+  </data>
+  <data name="HisSelect_btnReset_Text" xml:space="preserve">
+    <value>Rest</value>
+    <comment>重置</comment>
+  </data>
+  <data name="HisSelect_btnSelect_Text" xml:space="preserve">
+    <value>Select</value>
+    <comment>查询</comment>
+  </data>
+  <data name="HisSelect_grid_BarCode_HeaderText" xml:space="preserve">
+    <value>BarCode</value>
+    <comment>总成条码</comment>
+  </data>
+  <data name="HisSelect_grid_CheckReult_HeaderText" xml:space="preserve">
+    <value>TestingReult</value>
+    <comment>检测结果</comment>
+  </data>
+  <data name="HisSelect_grid_CheckTime_HeaderText" xml:space="preserve">
+    <value>TestingTime</value>
+    <comment>检测时间</comment>
+  </data>
+  <data name="HisSelect_grid_FoamBarCode_HeaderText" xml:space="preserve">
+    <value>FoamBarCode</value>
+    <comment>泡棉条码</comment>
+  </data>
+  <data name="HisSelect_grid_ItemName_HeaderText" xml:space="preserve">
+    <value>ItemName</value>
+    <comment>项目名称</comment>
+  </data>
+  <data name="HisSelect_grid_PartNo_HeaderText" xml:space="preserve">
+    <value>PartNo</value>
+    <comment>零件号</comment>
+  </data>
+  <data name="HisSelect_grid_PartType_HeaderText" xml:space="preserve">
+    <value>PartType</value>
+    <comment>零件类型</comment>
+  </data>
+  <data name="HisSelect_grid_PicAdr_HeaderText" xml:space="preserve">
+    <value>PictureAddress</value>
+    <comment>图片地址</comment>
+  </data>
+  <data name="HisSelect_lblBarCode_Text" xml:space="preserve">
+    <value>BarCode：</value>
+    <comment>总成条码：</comment>
+  </data>
+  <data name="HisSelect_lblCheckTimeS_Text" xml:space="preserve">
+    <value>testintTime</value>
+    <comment>检测时间:</comment>
+  </data>
+  <data name="HisSelect_lblCheckTimeTo_Text" xml:space="preserve">
+    <value>to:</value>
+    <comment>至：</comment>
+  </data>
+  <data name="HisSelect_lblItemName_Text" xml:space="preserve">
+    <value>ItemName：</value>
+    <comment>项目名称:</comment>
+  </data>
+  <data name="HisSelect_lblPartNo_Text" xml:space="preserve">
+    <value>PartNo：</value>
+    <comment>零件号：</comment>
+  </data>
+  <data name="HisSelect_lblResult_Text" xml:space="preserve">
+    <value>testResult:</value>
+    <comment>检测结果:</comment>
+  </data>
+  <data name="HisSelect_pnlCondition_Text" xml:space="preserve">
+    <value>Query Conditions</value>
+    <comment>查询条件</comment>
+  </data>
+  <data name="HisSelect_pnlSelectResult_Text" xml:space="preserve">
+    <value>QueryResult</value>
+    <comment>查询结果</comment>
+  </data>
+  <data name="HisSelect_Text" xml:space="preserve">
+    <value>Query</value>
+    <comment>查询</comment>
+  </data>
+  <data name="RealSignMonitor_lblAirPressure_Text" xml:space="preserve">
+    <value>airPressureState:</value>
+    <comment>进气气压正常：</comment>
+  </data>
+  <data name="RealSignMonitor_lblAuto_Text" xml:space="preserve">
+    <value>auto-manual:</value>
+    <comment>自动手动：</comment>
+  </data>
+  <data name="RealSignMonitor_lblComPressionFault1_Text" xml:space="preserve">
+    <value>ComPressionFault#1：</value>
+    <comment>电磁阀1压紧故障:</comment>
+  </data>
+  <data name="RealSignMonitor_lblComPressionFault2_Text" xml:space="preserve">
+    <value>ComPressionFault#2：</value>
+    <comment>电磁阀2压紧故障:</comment>
+  </data>
+  <data name="RealSignMonitor_lblloosenFault1_Text" xml:space="preserve">
+    <value>loosenFault#1:</value>
+    <comment>电磁阀1松开故障：</comment>
+  </data>
+  <data name="RealSignMonitor_lblloosenFault2_Text" xml:space="preserve">
+    <value>loosenFault#2:</value>
+    <comment>电磁阀2松开故障：</comment>
+  </data>
+  <data name="RealSignMonitor_lblPowerSwitch_Text" xml:space="preserve">
+    <value>powerSwitch:</value>
+    <comment>电源控制开关</comment>
+  </data>
+  <data name="RealSignMonitor_lblQuickStop_Text" xml:space="preserve">
+    <value>scramState：</value>
+    <comment>急停正常:</comment>
+  </data>
+  <data name="RealSignMonitor_lblScreem_Text" xml:space="preserve">
+    <value>screemState:</value>
+    <comment>光幕正常:</comment>
+  </data>
+  <data name="RealSignMonitor_lblSiwth1_Text" xml:space="preserve">
+    <value>rise switch#1</value>
+    <comment>接近开关1升</comment>
+  </data>
+  <data name="RealSignMonitor_lblSiwth2_Text" xml:space="preserve">
+    <value>rise switch#2</value>
+    <comment>接近开关2升</comment>
+  </data>
+  <data name="RealSignMonitor_lblSiwth3_Text" xml:space="preserve">
+    <value>loosen switch#1</value>
+    <comment>松开开关#1：</comment>
+  </data>
+  <data name="RealSignMonitor_lblSiwth4_Text" xml:space="preserve">
+    <value>Impact switch#1</value>
+    <comment>压紧开关#1：</comment>
+  </data>
+  <data name="RealSignMonitor_lblSiwth5_Text" xml:space="preserve">
+    <value>loosen switch#2</value>
+    <comment>松开开关#2：</comment>
+  </data>
+  <data name="RealSignMonitor_lblSiwth6_Text" xml:space="preserve">
+    <value>Impact switch#2</value>
+    <comment>压紧开关#2：</comment>
+  </data>
+  <data name="RealSignMonitor_lblWarn_Text" xml:space="preserve">
+    <value>WarmState:</value>
+    <comment>总报警</comment>
+  </data>
+  <data name="RealSignMonitor_pnlSignMonitor_Text" xml:space="preserve">
+    <value>PLC Monitoor</value>
+    <comment>PLC信号监控</comment>
+  </data>
+  <data name="RealSignMonitor_Text" xml:space="preserve">
+    <value>Signal to view</value>
+    <comment>信号查看</comment>
+  </data>
+  <data name="PwdInput_lblPlesaseInptPwd_Text" xml:space="preserve">
+    <value>Please enter the administrator password:</value>
+    <comment>请输入管理员密码:</comment>
+  </data>
+  <data name="PwdInput_Text" xml:space="preserve">
+    <value>Input Password</value>
+    <comment>请输入密码</comment>
+  </data>
+  <data name="PwdInput_txtInpteSign_Text" xml:space="preserve">
+    <value>The password is incorrect!</value>
+    <comment>密码不正确！</comment>
+  </data>
+  <data name="PwdInput__btnOK_Text" xml:space="preserve">
+    <value>Confirm</value>
+    <comment>确认</comment>
+  </data>
+  <data name="10000" xml:space="preserve">
+    <value>Read!</value>
+    <comment>准备就绪!</comment>
+  </data>
+  <data name="10001" xml:space="preserve">
+    <value>Ready to take photos, please scan the assembly bar code!</value>
+    <comment>准备拍照,请扫描总成条码!</comment>
+  </data>
+  <data name="10002" xml:space="preserve">
+    <value>start command has been sent to the camera:</value>
+    <comment>已发送启动指令到相机:</comment>
+  </data>
+  <data name="10003" xml:space="preserve">
+    <value>Barcode printing beging…</value>
+    <comment>条码打印开始...</comment>
+  </data>
+  <data name="10004" xml:space="preserve">
+    <value>Bar code printing ending…</value>
+    <comment>条码打印结束...</comment>
+  </data>
+  <data name="10005" xml:space="preserve">
+    <value>Fail</value>
+    <comment>失败!</comment>
+  </data>
+  <data name="10006" xml:space="preserve">
+    <value>Qualified, do not run repeat scan</value>
+    <comment>已检测合格，不运行重复扫描</comment>
+  </data>
+  <data name="10007" xml:space="preserve">
+    <value>Bar code scanning successful!</value>
+    <comment>条码扫描成功!</comment>
+  </data>
+  <data name="10008" xml:space="preserve">
+    <value>Pass</value>
+    <comment>成功</comment>
+  </data>
+  <data name="10009" xml:space="preserve">
+    <value>Take a successful photo and the result is OK;</value>
+    <comment>拍照成功，结果为OK；</comment>
+  </data>
+  <data name="10010" xml:space="preserve">
+    <value>Take a successful photo and the result is NG;</value>
+    <comment>拍照成功，结果为NG；</comment>
+  </data>
+  <data name="10011" xml:space="preserve">
+    <value>No photo results were detected!</value>
+    <comment>未检测到拍照结果!</comment>
+  </data>
+  <data name="FrmForceBootMonitor_Speech_ReadText" xml:space="preserve">
+    <value>Read!</value>
+    <comment>准备就绪</comment>
+  </data>
+  <data name="10012" xml:space="preserve">
+    <value>Open</value>
+    <comment>打开</comment>
+  </data>
+  <data name="10013" xml:space="preserve">
+    <value>Close</value>
+    <comment>关闭</comment>
+  </data>
+  <data name="10014" xml:space="preserve">
+    <value>OK</value>
+    <comment>正常</comment>
+  </data>
+  <data name="10015" xml:space="preserve">
+    <value>NG</value>
+    <comment>不正常</comment>
+  </data>
+  <data name="10016" xml:space="preserve">
+    <value>Auto</value>
+    <comment>自动</comment>
+  </data>
+  <data name="10017" xml:space="preserve">
+    <value>Manual</value>
+    <comment>手动</comment>
+  </data>
+</root>

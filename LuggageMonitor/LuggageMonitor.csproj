@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B12CE2C-C350-4BAB-9897-0A1F355AC83B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LuggageMonitor</RootNamespace>
+    <AssemblyName>LuggageMonitor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\work\实极\TSLA行李箱\LuggageMonitor\Pub\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B211F50D75FFFB3475FAFADE274064625320C08A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LuggageMonitor_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="AnalogClockLib">
+      <HintPath>..\..\Analog_Clock_Demo\Analog Clock Demo\ClockTest\AnalogClockLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\..\..\..\soft\开发安装包\mysql-for-visualstudio-1.2.9-noinstall\16.0v472\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Cells, Version=8.7.1.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="CSkin">
+      <HintPath>..\..\..\名华特斯拉保险杠\CODE\I.MES\I.MES.Client.UI\bin\Debug\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextAsian, Version=2.1.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\iTextAsian.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextAsianCmaps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\iTextAsianCmaps.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LBIndustrialCtrls">
+      <HintPath>..\..\..\参考资料\LBIndustrialCtrls_src\LBIndustrialCtrls_src\LBIndustrialCtrls_src\TestApp\bin\Debug\LBIndustrialCtrls.dll</HintPath>
+    </Reference>
+    <Reference Include="LumenWorks.Framework.IO, Version=3.8.0.0, Culture=neutral, PublicKeyToken=5ad3ea2f85776344, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\LumenWorks.Framework.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.21.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.4.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML, Version=2.4.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net, Version=2.4.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats, Version=2.4.0.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="S7.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d5812d469e84c693, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\S7.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="SocketHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Trace.Common.UnicodeToZPL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Trace.Common.UnicodeToZPL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoSizeFormClass.cs" />
+    <Compile Include="BarCodePrint.cs" />
+    <Compile Include="ComBasic.cs" />
+    <Compile Include="DataOpreate.cs" />
+    <Compile Include="FrmForcePB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForcePB.Designer.cs">
+      <DependentUpon>FrmForcePB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalResources\Resource.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="HisSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HisSelect.Designer.cs">
+      <DependentUpon>HisSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CheckReult.cs" />
+    <Compile Include="Models\WorkStep.cs" />
+    <Compile Include="Other\ControlInvoker.cs" />
+    <Compile Include="Encrypt.cs" />
+    <Compile Include="ExTest\Soket\SendMesToCamear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExTest\Soket\SendMesToCamear.Designer.cs">
+      <DependentUpon>SendMesToCamear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForceBootMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForceBootMonitor.Designer.cs">
+      <DependentUpon>FrmForceBootMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRealBootMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRealBootMonitor.Designer.cs">
+      <DependentUpon>FrmRealBootMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ExTest\TestPLC\SIEMENS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExTest\TestPLC\SIEMENS.Designer.cs">
+      <DependentUpon>SIEMENS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExTest\TestPrint\TestPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExTest\TestPrint\TestPrint.Designer.cs">
+      <DependentUpon>TestPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PwdInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PwdInput.Designer.cs">
+      <DependentUpon>PwdInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForceSignMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForceSignMonitor.Designer.cs">
+      <DependentUpon>ForceSignMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealSignMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealSignMonitor.Designer.cs">
+      <DependentUpon>RealSignMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ConnectNetShare.cs" />
+    <Compile Include="Tools\ExcelHelper.cs" />
+    <Compile Include="Tools\FileHelper.cs" />
+    <Compile Include="Tools\FileOperate.cs" />
+    <Compile Include="Tools\Helper.cs" />
+    <Compile Include="Tools\MySqlDBHelper.cs" />
+    <Compile Include="Tools\ResourceCulture.cs" />
+    <Compile Include="Tools\S7NetPLC.cs" />
+    <Compile Include="Tools\Speecher.cs" />
+    <Compile Include="Tools\ZebraPrintHelper.cs" />
+    <Compile Include="FrmRealPB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRealPB.Designer.cs">
+      <DependentUpon>FrmRealPB.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ExTest\Soket\SendMesToCamear.resx">
+      <DependentUpon>SendMesToCamear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForceBootMonitor.resx">
+      <DependentUpon>FrmForceBootMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForcePB.resx">
+      <DependentUpon>FrmForcePB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRealBootMonitor.resx">
+      <DependentUpon>FrmRealBootMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalResources\Resource.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalResources\Resource.zh-CN.resx" />
+    <EmbeddedResource Include="HisSelect.resx">
+      <DependentUpon>HisSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExTest\TestPLC\SIEMENS.resx">
+      <DependentUpon>SIEMENS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExTest\TestPrint\TestPrint.resx">
+      <DependentUpon>TestPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PwdInput.resx">
+      <DependentUpon>PwdInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForceSignMonitor.resx">
+      <DependentUpon>ForceSignMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealSignMonitor.resx">
+      <DependentUpon>RealSignMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRealPB.resx">
+      <DependentUpon>FrmRealPB.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="LuggageMonitor_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLL\Aspose.Cells.dll" />
+    <Content Include="DLL\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="DLL\iTextAsian.dll" />
+    <Content Include="DLL\iTextAsianCmaps.dll" />
+    <Content Include="DLL\itextsharp.dll" />
+    <Content Include="DLL\LumenWorks.Framework.IO.dll" />
+    <Content Include="DLL\Newtonsoft.Json.dll" />
+    <Content Include="DLL\NPOI.dll" />
+    <Content Include="DLL\NPOI.OOXML.dll" />
+    <Content Include="DLL\NPOI.OpenXml4Net.dll" />
+    <Content Include="DLL\NPOI.OpenXmlFormats.dll" />
+    <Content Include="DLL\S7.Net.dll" />
+    <Content Include="DLL\SocketHelper.dll" />
+    <Content Include="DLL\Trace.Common.UnicodeToZPL.dll" />
+    <None Include="Resources\捕获1.PNG" />
+    <None Include="Resources\bg.jpg" />
+    <Content Include="Resources\BJ.jpg" />
+    <Content Include="Resources\F1.png" />
+    <Content Include="Resources\gnome-fs-loading-icon.ico" />
+    <Content Include="Resources\nopic.png" />
+    <None Include="Resources\q.bmp" />
+    <Content Include="Resources\R1.png" />
+    <Content Include="Resources\S1.png" />
+    <Content Include="Resources\qlug.jpg" />
+    <Content Include="Resources\timg.jpg" />
+    <Content Include="Resources\Untitled-1.png" />
+    <None Include="Resources\companly.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
